@@ -1,10 +1,12 @@
-# renovate-oss-base [![validate](https://github.com/YutaUra/renovate-oss-base/actions/workflows/validate.yaml/badge.svg)](https://github.com/YutaUra/renovate-oss-base/actions/workflows/validate.yaml)
+# renovate-oss-base [![renovate-config](https://github.com/YutaUra/renovate-oss-base/actions/workflows/renovate-config.yaml/badge.svg)](https://github.com/YutaUra/renovate-oss-base/actions/workflows/renovate-config.yaml)
 
-This is my base config of Renovate.
+A Renovate config for me.
 
 ## Getting Started
 
-```json
+### .github/renovate.json5
+
+```json5
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": ["github>YutaUra/renovate-oss-base"]
